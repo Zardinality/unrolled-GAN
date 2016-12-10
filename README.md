@@ -14,3 +14,13 @@ The output is poorly optimized, as you can see, there is still pretty many mode 
 
 > DCGAN with pre-condition, generator_learning_rate=1e-4, discriminator_learning_rate=2e-4
 
+
+
+MNIST data is required, and run
+
+``` python
+from tensorflow.examples.tutorials.mnist import input_data
+input_data.read_data_sets('MNIST_data', one_hot=True)
+```
+
+in shell would automatically download the data.

@@ -103,3 +103,5 @@ dc_ckpt/
 
 #data
 MNIST_data/
+
+.DS_Store
