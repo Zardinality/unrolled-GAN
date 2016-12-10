@@ -1,4 +1,4 @@
-My own implementation of [Unrolled GAN][https://arxiv.org/abs/1611.02163] of MNIST , and a DCGAN MNIST with pre-condition for the sake of comparison, using tensorflow.
+My own implementation of [Unrolled GAN](https://arxiv.org/abs/1611.02163) of MNIST , and a DCGAN MNIST with pre-condition for the sake of comparison, using tensorflow.
 
 Noticing the architecture might be inaccurate, I use 3 convolution in discriminator part, and each learning rate being 2e-4.
 
